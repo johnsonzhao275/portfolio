@@ -1,10 +1,10 @@
 import React from "react";
 
-const About = () => {
+const Experience = () => {
   return (
     <>
     </>
   );
 };
 
-export default About;
+export default Experience;
