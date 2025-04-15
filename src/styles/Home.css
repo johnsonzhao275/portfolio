@@ -1,0 +1,92 @@
+.hero {
+  min-height: calc(100vh - 80px); /* Account for navbar height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background-color: #E9EFF5;
+  margin-top: 20px; /* Match the pt-20 from App.jsx */
+}
+
+.hero-content {
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4rem;
+  padding: 2rem;
+}
+
+.text-content {
+  flex: 1;
+  max-width: 600px;
+}
+
+.image-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-photo {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.greeting {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #000000;
+  line-height: 1.1;
+}
+
+.highlight {
+  color: #000080;
+}
+
+.role {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+  color: #666666;
+}
+
+.description {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  color: #666666;
+  max-width: 600px;
+}
+
+@media (max-width: 768px) {
+  .hero-content {
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+  }
+
+  .text-content {
+    max-width: 100%;
+  }
+
+  .greeting {
+    font-size: 2.5rem;
+  }
+  
+  .role {
+    font-size: 1.25rem;
+  }
+  
+  .description {
+    font-size: 1.1rem;
+  }
+
+  .profile-photo {
+    max-width: 300px;
+  }
+} 
