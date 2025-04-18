@@ -13,20 +13,21 @@ const About = () => {
           <div className="text-content">
             <h1 className="about-title">About Me</h1>
             <p className="about-text">
-              I was previously a Full Stack Developer at Booz Allen Hamilton,
-              working on a React application for the Environmental Protection Agency.
-              I was born and raised in Philadelphia, PA and lived here my entire life.
-              I graduated from Drexel University with a Bachelor's of Science in Computer Engineering in 2021.
+              Previous Full Stack Developer at Booz Allen Hamilton
+              <br/>
+              Currently in Philadelphia, PA
+              <br/>
+              Bachelor's of Science in Computer Engineering from Drexel University '21
             </p>
             <p className="about-text">
               Here are some of the technologies I've been working with:
-              <ul>
-                <li>React.js</li>
-                <li>Node.js</li>
-                <li>TypeScript</li>
-                <li>PostgreSQL</li>
-                <li>Java</li>
-                <li>and many more!</li>
+              <ul className="tech-list">
+                <li><span className="arrow">➤</span>React.js</li>
+                <li><span className="arrow">➤</span>Node.js</li>
+                <li><span className="arrow">➤</span>TypeScript</li>
+                <li><span className="arrow">➤</span>PostgreSQL</li>
+                <li><span className="arrow">➤</span>Java</li>
+                <li><span className="arrow">➤</span>and many more!</li>
               </ul>
             </p>
           </div>

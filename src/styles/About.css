@@ -64,15 +64,24 @@
   position: relative;
   padding-left: 1.5rem;
   margin-bottom: 0.5rem;
+  display: flex;
+  align-items: flex-start;
+}
+
+.arrow {
+  color: #000080;
+  margin-right: 0.75rem;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  transition: transform 0.35s ease;
+}
+
+.about-text ul li:hover .arrow {
+  transform: translateX(3px);
 }
 
 .about-text ul li::before {
-  content: "•";
-  color: #000080;
-  position: absolute;
-  left: 0;
-  font-size: 1.5rem;
-  line-height: 1;
+  display: none;
 }
 
 @media (max-width: 768px) {
