@@ -8,7 +8,7 @@
       const path = window.location.pathname;
       // Remove the /portfolio prefix if it exists
       const cleanPath = path.replace('/portfolio', '');
-      // Redirect to index.html with the current path
+      // Redirect to index.html with the current path as a hash
       window.location.href = '/portfolio/index.html#' + cleanPath;
     </script>
   </head>
