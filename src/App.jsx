@@ -8,7 +8,7 @@ import Experience from "./pages/Experience";
 
 const App = () => {
   return (
-      <Router basename="/portfolio">
+      <Router>
         <NavigationBar />
         <main className="pt-20">
         <Routes>
