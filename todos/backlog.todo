@@ -1,17 +1,18 @@
 Home Page
-☐ Fix photo to load faster by compressing quality?
+☐ @low Fix photo to load faster by compressing quality?
 
 About Page
-☐ Fix photo to load faster by compressing quality?
+☐ @low Fix photo to load faster by compressing quality?
 
 Experience Page
-☐ Add a hyperlink to the company names
+☐ @low Add a hyperlink to the company names
 
 Sports/Gaming Page
-☐ Work on the design of the page
+☐ @high Work on the design of the page
 
 Navigation Bar
-☐ Add a link to download resume
+☐ @high Add a link to download resume
+☐ @high Add website link to resume
 
 Bugs
-☐ On any page, load into the page, then click on refresh button, the page will error out (404 File not found The site configured at this address does not contain the requested file.)
+✔ @critical On any page, load into the page, then click on refresh button, the page will error out (404 File not found The site configured at this address does not contain the requested file.) @done(25-04-21 15:37)
