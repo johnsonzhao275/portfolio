@@ -1,5 +1,5 @@
 import { Navbar, Nav, Container } from 'react-bootstrap';
-import { Email, LinkedIn, GitHub } from '@mui/icons-material';
+import { Email, LinkedIn, GitHub, Article } from '@mui/icons-material';
 import { Link } from 'react-router-dom';
 
 const NavigationBar = () => {
@@ -18,6 +18,9 @@ const NavigationBar = () => {
 
             {/* Right-aligned social icons */}
             <Nav className="ms-auto">
+            <Nav.Link href="https://drive.google.com/file/d/1hHcS8xqUGRdgfh-42XZt5pYUuWU6knOB/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                <Article fontSize="small" />
+            </Nav.Link>
             <Nav.Link href="mailto:johnsonzhao275@gmail.com">
                 <Email fontSize="small" />
             </Nav.Link>

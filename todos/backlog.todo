@@ -11,8 +11,9 @@ Sports/Gaming Page
 ☐ @high Work on the design of the page
 
 Navigation Bar
-☐ @high Add a link to download resume
-☐ @high Add website link to resume
+✔ @high Add a link to open resume in new tab @done(25-04-23 15:40)
+✔ @high Add portfolio link to resume @done(25-04-23 15:21)
+✔ @high Add portfolio link to LinkedIn @done(25-04-21 16:06)
 
 Bugs
 ✔ @critical On any page, load into the page, then click on refresh button, the page will error out (404 File not found The site configured at this address does not contain the requested file.) @done(25-04-21 15:37)
