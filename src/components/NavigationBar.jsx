@@ -14,6 +14,7 @@ const NavigationBar = () => {
             <Nav.Link as={Link} to="/">Home</Nav.Link>
             <Nav.Link as={Link} to="/about">About</Nav.Link>
             <Nav.Link as={Link} to="/experience">Experience</Nav.Link>
+            <Nav.Link as={Link} to="/shoes">Shoe Collection</Nav.Link>
             </Nav>
 
             {/* Right-aligned social icons */}

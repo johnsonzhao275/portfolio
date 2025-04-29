@@ -1,0 +1,52 @@
+{
+    "shoes": [
+        {
+            "id": "1",
+            "brand": "Air Jordan",
+            "name": "Air Jordan 1 Retro 2015",
+            "size": "US 9",
+            "color": "Chicago",
+            "condition": "Used",
+            "currentMarketPrice": 0,
+            "quantity": 1,
+            "image": "https://images.stockx.com/images/Air-Jordan-1-Retro-Chicago-2015-Product_V2.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1738193358",
+            "searchQuery": "{condition} {name} {color} Size {size}"
+        },
+        {
+            "id": "2",
+            "brand": "Nike",
+            "name": "Nike Dunk Low Retro",
+            "size": "US 9.5",
+            "color": "White Black Panda",
+            "condition": "Used",
+            "currentMarketPrice": 0,
+            "quantity": 1,
+            "image": "https://images.stockx.com/images/Nike-Dunk-Low-Retro-White-Black-2021-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1738193358",
+            "searchQuery": "{condition} {name} {color} Size {size}"
+        },
+        {
+            "id": "3",
+            "brand": "Nike",
+            "name": "Nike Dunk Low Retro",
+            "size": "US 9.5",
+            "color": "White Black Panda",
+            "condition": "New",
+            "currentMarketPrice": 0,
+            "quantity": 1,
+            "image": "https://images.stockx.com/images/Nike-Dunk-Low-Retro-White-Black-2021-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1738193358",
+            "searchQuery": "{condition} {name} {color} Size {size}"
+        },
+        {
+            "id": "4",
+            "brand": "adidas",
+            "name": "adidas Yeezy Boost 350 v2",
+            "size": "US 9.5",
+            "color": "Bone",
+            "condition": "Used",
+            "currentMarketPrice": 0,
+            "quantity": 1,
+            "image": "https://images.stockx.com/images/adidas-Yeezy-Boost-350-V2-Pure-Oat-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1738193358",
+            "searchQuery": "{condition} {name} {color} Size {size}"
+        }
+    ]
+} 

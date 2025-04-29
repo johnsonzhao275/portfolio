@@ -8,7 +8,22 @@ Experience Page
 ☐ @low Add a hyperlink to the company names
 
 Sports/Gaming Page
-☐ @high Work on the design of the page
+☐ @low List of games played
+☐ @low KDA
+☐ @low Ranks
+☐ @low Years of Experience
+☐ @low Stat Tracker
+☐ @low Hyperlink title of game to game website
+
+Shoes Collection Page
+☐ @low Add Ebay API Key from Developer account to Vercel Environment Variables
+☐ @low Add all shoes to list
+☐ @low Add all shoe pictures to media folder
+☐ @low Add a horizontal scroll bar instead of list going down multpiple levels
+☐ @low Add filter for brand
+☐ @low Add filter for size
+☐ @low Add filter for condition
+☐ @low Hyperlink market price to Ebay search result
 
 Navigation Bar
 ✔ @high Add a link to open resume in new tab @done(25-04-23 15:40)

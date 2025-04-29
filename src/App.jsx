@@ -5,6 +5,7 @@ import NavigationBar from "./components/NavigationBar";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Experience from "./pages/Experience";
+import ShoeCollection from "./pages/ShoeCollection";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/experience" element={<Experience />} />
+          <Route path="/shoes" element={<ShoeCollection />} />
         </Routes>
         </main>
       </Router>
