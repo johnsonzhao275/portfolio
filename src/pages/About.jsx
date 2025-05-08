@@ -13,11 +13,14 @@ const About = () => {
           <div className="text-content">
             <h1 className="about-title">About Me</h1>
             <p className="about-text">
-              Previous Full Stack Developer at Booz Allen Hamilton
+              Previous Full Stack Developer at&nbsp;
+              <a href="https://www.boozallen.com/" target="_blank" rel="noopener noreferrer">Booz Allen Hamilton</a>
               <br/>
-              Currently in Philadelphia, PA
+              Born and raised in Philadelphia, where I still live today.
               <br/>
-              Bachelor's of Science in Computer Engineering from Drexel University '21
+              Bachelor's of Science in Computer Engineering 
+              <br/>
+              Drexel University '21
             </p>
             <div className="about-text">
               Here are some of the technologies I've been working with:

@@ -1,11 +1,14 @@
 Home Page
-☐ @low Fix photo to load faster by compressing quality?
+✔ @low Fix photo to load faster by compressing quality? @done(25-05-07 15:10)
+
+Navigation Bar
+✔ @high Add labels/descriptions to the buttons @done(25-05-07 15:05)
 
 About Page
-☐ @low Fix photo to load faster by compressing quality?
+✔ @low Fix photo to load faster by compressing quality? @done(25-05-07 15:10)
 
 Experience Page
-☐ @low Add a hyperlink to the company names
+✔ @low Add a hyperlink to the company names @done(25-05-07 15:27)
 
 Sports/Gaming Page
 ☐ @low List of games played
@@ -14,16 +17,6 @@ Sports/Gaming Page
 ☐ @low Years of Experience
 ☐ @low Stat Tracker
 ☐ @low Hyperlink title of game to game website
-
-Shoes Collection Page
-☐ @low Add Ebay API Key from Developer account to Vercel Environment Variables
-☐ @low Add all shoes to list
-☐ @low Add all shoe pictures to media folder
-☐ @low Add a horizontal scroll bar instead of list going down multpiple levels
-☐ @low Add filter for brand
-☐ @low Add filter for size
-☐ @low Add filter for condition
-☐ @low Hyperlink market price to Ebay search result
 
 Navigation Bar
 ✔ @high Add a link to open resume in new tab @done(25-04-23 15:40)

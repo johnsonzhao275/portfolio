@@ -7,14 +7,24 @@ const Home = () => {
     <div className="container">
       <section className="hero">
         <div className="hero-content">
-          <div className="text-content">
+          <div className="home-text-content">
             <h1 className="greeting">Hi, I'm <span className="highlight">Johnson</span></h1>
             <h2 className="role">Senior Full Stack Developer</h2>
+            <br/>
             <p className="description">
-            Specializing in front-end web development with expertise in modern frameworks like React. Utilizing React patterns, 
-            state management solutions, and best practices for UI/UX development. Passionate about delivering intuitive,
-            scalable, and efficient applications. Able to adapt to both self-starting and collaborative environments 
-            while focusing on creating high quality solutions under strict deadlines.
+            Speciality in front-end web development.
+            <br/> 
+            Experienced in building and maintaining web applications.
+            <br/>
+            Proficient in JavaScript, TypeScript, React.js, and Node.js.
+            <br/>
+            Utilize patterns, state management solutions, and best practices. 
+            <br/>
+            Passionate about delivering intuitive, scalable, and efficient applications. 
+            <br/>
+            Ablility to adapt to both self-starting and collaborative environments. 
+            <br/>
+            Focus on creating high quality solutions under strict deadlines.
             </p>
           </div>
           <div className="image-content">

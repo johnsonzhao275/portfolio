@@ -6,6 +6,7 @@ const Experience = () => {
     "Booz Allen Hamilton": {
       location: "Philadelphia, PA",
       date: "June 2021 - January 2025",
+      website: "https://www.boozallen.com/",
       role: "Full Stack Developer, Senior Consultant",
       description: [
         "Developed and deployed over 125 enhancements, improvements, and bug fixes to the EPA's SEMS React Application. Created custom React hooks to streamline component functionality, implemented Redux for state management, and leveraged JavaScript, TypeScript, Java, Node.js, and PostgreSQL to improve overall user experience and system efficiency",
@@ -17,6 +18,7 @@ const Experience = () => {
     "Berkley Technology Services": {
       location: "Wilmington, DE",
       date: "October 2019 - March 2020",
+      website: "https://berkleytechnologyservices.com/",
       role: "System Administrator - IT Service Management",
       description: [
         "Completed over 15 enhancements on ServiceNow through SDLC methodology",
@@ -27,6 +29,7 @@ const Experience = () => {
     "National Board of Medical Examiners": {
       location: "Philadelphia, PA",
       date: "September 2018 to April 2019",
+      website: "https://www.nbme.org/",
       role: "Software Engineering Intern – Web Exam Driver",
       description: [
         "Utilized Java, Angular, and SQL to recreate an airport database application",
@@ -36,6 +39,7 @@ const Experience = () => {
     "Schweitzer Engineering Laboratories, Inc": {
       location: "King of Prussia, PA",
       date: "September 2017 to April 2018",
+      website: "https://selinc.com/",
       role: "Electrical Engineering Intern",
       description: [
         "Applied SEL developed software to protection relays utilizing C and Python GUI",
@@ -70,7 +74,7 @@ const Experience = () => {
             <div className="experience-details">
               <div className="timeline-content">
                 <div className="timeline-header">
-                  <h3 className="company">{selectedCompany}</h3>
+                  <a className="company" href={experiences[selectedCompany].website} target="_blank" rel="noopener noreferrer">{selectedCompany}</a>
                   <span className="date">{experiences[selectedCompany].date}</span>
                 </div>
                 <h4 className="role">{experiences[selectedCompany].role}</h4>
