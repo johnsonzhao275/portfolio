@@ -18,7 +18,7 @@ const NavigationBar = () => {
 
             {/* Right-aligned social icons */}
             <Nav className="ms-auto">
-            <Nav.Link href="https://drive.google.com/file/d/1hHcS8xqUGRdgfh-42XZt5pYUuWU6knOB/view?usp=sharing" target="_blank" rel="noopener noreferrer" title="Resume">
+            <Nav.Link href="https://drive.google.com/file/d/17LxwqZQx3LG35GCUiuxmC6BL9zrcXEs9/view?usp=sharing" target="_blank" rel="noopener noreferrer" title="Resume">
                 <Article fontSize="small" />
             </Nav.Link>
             <Nav.Link href="mailto:johnsonzhao275@gmail.com" title="Email">
