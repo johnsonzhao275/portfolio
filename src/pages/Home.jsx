@@ -9,22 +9,18 @@ const Home = () => {
         <div className="hero-content">
           <div className="home-text-content">
             <h1 className="greeting">Hi, I'm <span className="highlight">Johnson</span></h1>
-            <h2 className="role">Senior Full Stack Developer</h2>
+            <h2 className="role">Full Stack Developer Turned Data Analyst</h2>
             <br/>
             <p className="description">
-            Speciality in front-end web development.
+            Former full-stack developer now dedicated to turning data into actionable insights
             <br/> 
-            Experienced in building and maintaining web applications.
+            Started my career building full-stack applications, writing code, and managing databases
             <br/>
-            Proficient in JavaScript, TypeScript, React.js, and Node.js.
+            Discovered a passion for the data itself—querying it, visualizing it, and uncovering the story behind it
             <br/>
-            Utilize patterns, state management solutions, and best practices. 
+            Focus on SQL, Python (pandas, NumPy), Tableau, and Excel
             <br/>
-            Passionate about delivering intuitive, scalable, and efficient applications. 
-            <br/>
-            Ablility to adapt to both self-starting and collaborative environments. 
-            <br/>
-            Focus on creating high quality solutions under strict deadlines.
+            To help organizations make data-driven decisions
             </p>
           </div>
           <div className="image-content">

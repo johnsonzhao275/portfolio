@@ -25,11 +25,11 @@ const About = () => {
             <div className="about-text">
               Here are some of the technologies I've been working with:
               <ul className="tech-list">
-                <li><span className="arrow">➤</span>React.js</li>
-                <li><span className="arrow">➤</span>Node.js</li>
-                <li><span className="arrow">➤</span>TypeScript</li>
-                <li><span className="arrow">➤</span>PostgreSQL</li>
-                <li><span className="arrow">➤</span>Java</li>
+                <li><span className="arrow">➤</span>SQL</li>
+                <li><span className="arrow">➤</span>Python</li>
+                <li><span className="arrow">➤</span>pandas/NumPy</li>
+                <li><span className="arrow">➤</span>Excel</li>
+                <li><span className="arrow">➤</span>Tableau</li>
                 <li><span className="arrow">➤</span>and many more!</li>
               </ul>
             </div>
