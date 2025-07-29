@@ -14,6 +14,7 @@ const NavigationBar = () => {
             <Nav.Link as={Link} aria-label="Home Page" to="/">Home</Nav.Link>
             <Nav.Link as={Link} aria-label="About Page" to="/about">About</Nav.Link>
             <Nav.Link as={Link} aria-label="Experience Page" to="/experience">Experience</Nav.Link>
+            <Nav.Link as={Link} aria-label="Projects Page" to="/projects">Projects</Nav.Link>
             </Nav>
 
             {/* Right-aligned social icons */}
