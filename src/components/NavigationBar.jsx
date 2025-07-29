@@ -12,7 +12,7 @@ const NavigationBar = () => {
             {/* Left-aligned links */}
             <Nav className="me-auto">
             <Nav.Link as={Link} aria-label="Home Page" to="/">Home</Nav.Link>
-            <Nav.Link as={Link} aria-label="About Page" to="/about">About</Nav.Link>
+            <Nav.Link as={Link} aria-label="About Page" to="/about">About Me</Nav.Link>
             <Nav.Link as={Link} aria-label="Experience Page" to="/experience">Experience</Nav.Link>
             <Nav.Link as={Link} aria-label="Projects Page" to="/projects">Projects</Nav.Link>
             </Nav>

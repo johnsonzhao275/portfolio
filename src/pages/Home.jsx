@@ -12,19 +12,24 @@ const Home = () => {
             <h2 className="role">Full Stack Developer Turned Data Analyst</h2>
             <br/>
             <p className="description">
-            Former full-stack developer now dedicated to turning data into actionable insights
+            Former Full Stack Developer, Senior Consultant at&nbsp;
+              <a href="https://www.boozallen.com/" target="_blank" rel="noopener noreferrer">Booz Allen Hamilton</a>
             <br/> 
-            Started my career building full-stack applications, writing code, and managing databases
+            Built web apps, created modules, and improved existing codebases
             <br/>
-            Discovered a passion for the data itself—querying it, visualizing it, and uncovering the story behind it
+            Discovered a passion for data. 
             <br/>
-            Focus on SQL, Python (pandas, NumPy), Tableau, and Excel
+            Querying it, visualizing it, and uncovering the story behind it
             <br/>
-            To help organizations make data-driven decisions
+            Focus on SQL, Tableau, Python(pandas, NumPy), and Excel
+            <br/>
+            Help make data-driven decisions
+            <br/>
+            Solve complex problems
             </p>
           </div>
           <div className="image-content">
-            <img src={profilePhoto} alt="Johnson Zhao" className="profile-photo" />
+            <img src={profilePhoto} alt="Johnson Zhao" className="home-profile-photo" />
           </div>
         </div>
       </section>
