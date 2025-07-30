@@ -12,14 +12,15 @@ const NavigationBar = () => {
             {/* Left-aligned links */}
             <Nav className="me-auto">
             <Nav.Link as={Link} aria-label="Home Page" to="/">Home</Nav.Link>
-            <Nav.Link as={Link} aria-label="About Page" to="/about">About Me</Nav.Link>
+            {/* <Nav.Link as={Link} aria-label="About Page" to="/about">About Me</Nav.Link> */}
+            <Nav.Link as={Link} aria-label="Skills Page" to="/skills">Skills</Nav.Link>
             <Nav.Link as={Link} aria-label="Experience Page" to="/experience">Experience</Nav.Link>
             <Nav.Link as={Link} aria-label="Projects Page" to="/projects">Projects</Nav.Link>
             </Nav>
 
             {/* Right-aligned social icons */}
             <Nav className="ms-auto">
-            <Nav.Link href="https://drive.google.com/file/d/17LxwqZQx3LG35GCUiuxmC6BL9zrcXEs9/view?usp=sharing" target="_blank" rel="noopener noreferrer" title="Resume">
+            <Nav.Link href="https://drive.google.com/file/d/1RwiaNXgmmZKQ_iorGzjMKCgbYU9gip1x/view?usp=sharing" target="_blank" rel="noopener noreferrer" title="Resume">
                 <Article fontSize="small" />
             </Nav.Link>
             <Nav.Link href="mailto:johnsonzhao275@gmail.com" title="Email">
