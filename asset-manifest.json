@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.8a259b90.css",
-    "main.js": "/portfolio/static/js/main.d751bf42.js",
+    "main.css": "/portfolio/static/css/main.780243be.css",
+    "main.js": "/portfolio/static/js/main.d1ac753d.js",
     "static/js/453.ed3810f9.chunk.js": "/portfolio/static/js/453.ed3810f9.chunk.js",
     "static/media/johnsonheadshot1.jpg": "/portfolio/static/media/johnsonheadshot1.a036b4e08d47c45ae040.jpg",
     "static/media/johnsonheadshot2.jpg": "/portfolio/static/media/johnsonheadshot2.bd8a7a5935009ef704ef.jpg",
@@ -9,12 +9,12 @@
     "static/media/seattleDashboardPhoto.png": "/portfolio/static/media/seattleDashboardPhoto.97cfb72786503a299c64.png",
     "static/media/bostonDashboardPhoto.png": "/portfolio/static/media/bostonDashboardPhoto.d0d93684b1fcfcc6d567.png",
     "index.html": "/portfolio/index.html",
-    "main.8a259b90.css.map": "/portfolio/static/css/main.8a259b90.css.map",
-    "main.d751bf42.js.map": "/portfolio/static/js/main.d751bf42.js.map",
+    "main.780243be.css.map": "/portfolio/static/css/main.780243be.css.map",
+    "main.d1ac753d.js.map": "/portfolio/static/js/main.d1ac753d.js.map",
     "453.ed3810f9.chunk.js.map": "/portfolio/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8a259b90.css",
-    "static/js/main.d751bf42.js"
+    "static/css/main.780243be.css",
+    "static/js/main.d1ac753d.js"
   ]
 }
