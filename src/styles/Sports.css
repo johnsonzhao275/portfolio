@@ -1,0 +1,274 @@
+.sports-section {
+  min-height: calc(100vh - 80px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background-color: #E9EFF5;
+  margin-top: 20px;
+}
+
+.sports-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  color: #000000;
+  text-align: center;
+}
+
+.sports-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.sport-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.sport-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.sport-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.sport-image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.sport-card:hover .sport-image {
+  transform: scale(1.05);
+}
+
+.sport-caption {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  padding: 1.5rem;
+  margin: 0;
+  color: #000000;
+  background: white;
+  transition: color 0.3s ease;
+}
+
+.sport-card:hover .sport-caption {
+  color: #000080;
+}
+
+/* Back Button Styles */
+.back-button {
+  position: absolute;
+  top: 5rem;
+  left: 2rem;
+  background: #000080;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+
+.back-button:hover {
+  background: #000060;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  color: white;
+  text-decoration: none;
+}
+
+.back-button:active {
+  transform: translateY(0);
+}
+
+/* Sport Detail Page Styles */
+.sport-detail-content {
+  max-width: 1000px;
+  width: 100%;
+}
+
+.sport-images {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.sport-detail-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.sport-detail-image:hover {
+  transform: scale(1.02);
+}
+
+.sport-description {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.sport-description p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #333333;
+  margin-bottom: 1.5rem;
+  text-align: justify;
+}
+
+.sport-description p:last-child {
+  margin-bottom: 0;
+}
+
+/* Paragraph Section Styles */
+.paragraph-section {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 3rem;
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.paragraph-section.reverse {
+  flex-direction: row-reverse;
+}
+
+.paragraph-text {
+  flex: 2;
+}
+
+.paragraph-text p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #333333;
+  margin: 0;
+  text-align: justify;
+}
+
+.paragraph-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.paragraph-image .sport-detail-image {
+  width: 100%;
+  max-width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.paragraph-image .sport-detail-image:hover {
+  transform: scale(1.02);
+}
+
+@media (max-width: 768px) {
+  .sports-section {
+    padding: 1rem;
+  }
+
+  .sports-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .sports-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .sport-image {
+    height: 200px;
+  }
+
+  .sport-caption {
+    font-size: 1.25rem;
+    padding: 1rem;
+  }
+
+  .sport-images {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .sport-detail-image {
+    height: 180px;
+  }
+
+  .sport-description {
+    padding: 1.5rem;
+  }
+
+  .sport-description p {
+    font-size: 1rem;
+    text-align: left;
+  }
+
+  .paragraph-section {
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .paragraph-section.reverse {
+    flex-direction: column;
+  }
+
+  .paragraph-text {
+    flex: none;
+  }
+
+  .paragraph-text p {
+    font-size: 1rem;
+    text-align: left;
+  }
+
+  .paragraph-image {
+    flex: none;
+  }
+
+  .paragraph-image .sport-detail-image {
+    max-width: 100%;
+    height: 180px;
+  }
+
+  .back-button {
+    top: 1rem;
+    left: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+  }
+} 
