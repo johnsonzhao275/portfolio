@@ -1,20 +1,28 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.780243be.css",
-    "main.js": "/portfolio/static/js/main.877e7653.js",
+    "main.css": "/portfolio/static/css/main.fffe0c01.css",
+    "main.js": "/portfolio/static/js/main.5cf00156.js",
     "static/js/453.ed3810f9.chunk.js": "/portfolio/static/js/453.ed3810f9.chunk.js",
+    "static/media/liondance.gif": "/portfolio/static/media/liondance.dc4d3967cbcb1983209f.gif",
+    "static/media/sunsvolleyball2.JPEG": "/portfolio/static/media/sunsvolleyball2.dfa4c949eb93a1f8e44b.JPEG",
+    "static/media/sunsvolleyball4.jpg": "/portfolio/static/media/sunsvolleyball4.14e83eb9df4d33563512.jpg",
+    "static/media/sunsvolleyball3.jpg": "/portfolio/static/media/sunsvolleyball3.e2e36617dd30c1eeefd5.jpg",
     "static/media/johnsonheadshot1.jpg": "/portfolio/static/media/johnsonheadshot1.a036b4e08d47c45ae040.jpg",
     "static/media/johnsonheadshot2.jpg": "/portfolio/static/media/johnsonheadshot2.bd8a7a5935009ef704ef.jpg",
+    "static/media/liondance.jpg": "/portfolio/static/media/liondance.23a931503462183631c4.jpg",
     "static/media/twitchDashboardPhoto.png": "/portfolio/static/media/twitchDashboardPhoto.bd6d542cf7e865800504.png",
+    "static/media/sunsvolleyball1.JPG": "/portfolio/static/media/sunsvolleyball1.6964a6173355b1587455.JPG",
     "static/media/seattleDashboardPhoto.png": "/portfolio/static/media/seattleDashboardPhoto.97cfb72786503a299c64.png",
     "static/media/bostonDashboardPhoto.png": "/portfolio/static/media/bostonDashboardPhoto.d0d93684b1fcfcc6d567.png",
+    "static/media/sunsbasketball1.jpg": "/portfolio/static/media/sunsbasketball1.6f4f41fe9f942a65edc7.jpg",
+    "static/media/sunsbasketball2.jpg": "/portfolio/static/media/sunsbasketball2.014469c95a5c9fc06251.jpg",
     "index.html": "/portfolio/index.html",
-    "main.780243be.css.map": "/portfolio/static/css/main.780243be.css.map",
-    "main.877e7653.js.map": "/portfolio/static/js/main.877e7653.js.map",
+    "main.fffe0c01.css.map": "/portfolio/static/css/main.fffe0c01.css.map",
+    "main.5cf00156.js.map": "/portfolio/static/js/main.5cf00156.js.map",
     "453.ed3810f9.chunk.js.map": "/portfolio/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.780243be.css",
-    "static/js/main.877e7653.js"
+    "static/css/main.fffe0c01.css",
+    "static/js/main.5cf00156.js"
   ]
 }
